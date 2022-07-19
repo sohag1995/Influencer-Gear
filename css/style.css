@@ -74,9 +74,10 @@ a {
 
 }
 
-.camera_text a i {
+.camera_text a,i {
     padding-left: 10px;
     padding-top: 5px;
+    color:white;
 }
 
 .camera_image {
@@ -126,13 +127,16 @@ a {
     padding: 15px;
     background-color: white;
     box-shadow: 10px 10px 50px rgba(128, 128, 128, 0.473);
-    /* border: 2px solid gray; */
+    
     margin-right: 25px;
     margin-bottom: 20px;
   
 }
-.coll_text h5,i{
-    color: gold;
+.coll_text i{
+    color: rgb(17, 0, 255);
+}
+.coll_text h1{
+    color: black;
 }
 .coll_text,p{
     color:gray;
@@ -141,12 +145,16 @@ a {
     color: gray;
     padding-left: 10px;
 }
-.coll_footer h3,i{
+.coll_footer{
     text-align: right;
-    padding-right: 20px;
-    color: coral;
-
+    padding-top: 30px;
 }
+.coll_footer a{
+    color: brown;
+    padding-right: 30px;
+   
+}
+
 .join{
     display: flex;
     margin-left: 100px;
@@ -176,16 +184,36 @@ a {
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
 }
-.join_text a,i{
-    color: white;
-}
+
 
 
 #footer_part{
-    padding:50px 0;
+    padding:40px 0;
     background-color:teal;
     margin-top:40px;
 }
 .last_part{
-    text-align:center;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.last_part h1{
+    color: white;
+    font-weight: 900;
+}
+.last_part h2{
+    color: white;
+   
+}
+.last_part h3{
+    color: white;
+    
+}
+.footer_font{
+    text-align: center;
+}
+.footer_font i{
+    padding: 7px;
+    background-color: rgba(128, 128, 128, 0.459);
+    border-radius: 60px;
 }
